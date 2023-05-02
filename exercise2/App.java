@@ -9,20 +9,18 @@ public class App {
         Planet uranus = new Uranus();
         Planet venus = new Venus();
 
+        System.out.println("\nAstronaut:");
         mars.accept(astronaut);
-        mars.accept(rover);
-
         mercury.accept(astronaut);
-        mercury.accept(rover);
-
         saturn.accept(astronaut);
-        saturn.accept(rover);
-
         uranus.accept(astronaut);
-        uranus.accept(rover);
-
         venus.accept(astronaut);
-        venus.accept(rover);
 
+        System.out.println("\nRover:");
+        mars.accept(rover);
+        mercury.accept(rover);
+        saturn.accept(rover);  
+        uranus.accept(rover);       
+        venus.accept(rover);
     }
 }
