@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestaurantController">
+   <children>
+      <Label layoutX="127.0" layoutY="183.0" text="Chowking" />
+      <Label layoutX="179.0" layoutY="369.0" text="McDonald's" />
+      <Label layoutX="279.0" layoutY="183.0" text="Jollibee" />
+      <Label layoutX="449.0" layoutY="183.0" text="KFC" />
+      <Label layoutX="367.0" layoutY="369.0" text="PizzaHut" />
+      <ImageView fx:id="chowkingImg" fitHeight="119.0" fitWidth="98.0" layoutX="105.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Chowking.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jollibeeImg" fitHeight="105.0" fitWidth="98.0" layoutX="250.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Jollibee.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kfcImg" fitHeight="98.0" fitWidth="98.0" layoutX="410.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/KFC.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mcdonaldsImg" fitHeight="84.0" fitWidth="87.0" layoutX="169.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/McDonalds.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pizzahutImg" fitHeight="92.0" fitWidth="84.0" layoutX="348.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/PizzaHut.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="chowkingBtn" layoutX="120.0" layoutY="215.0" mnemonicParsing="false" text="Chowking" />
+      <Button fx:id="jollibeeBtn" layoutX="272.0" layoutY="215.0" mnemonicParsing="false" text="Jollibee" />
+      <Button fx:id="kfcBtn" layoutX="432.0" layoutY="215.0" mnemonicParsing="false" text="KFC" />
+      <Button fx:id="mcdonaldsBtn" layoutX="171.0" layoutY="397.0" mnemonicParsing="false" text="McDonald's" />
+      <Button fx:id="pizzahutBtn" layoutX="359.0" layoutY="397.0" mnemonicParsing="false" text="PizzaHut" />
+   </children>
+</AnchorPane>
