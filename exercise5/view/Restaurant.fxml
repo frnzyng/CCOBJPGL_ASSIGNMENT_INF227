@@ -6,8 +6,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestaurantController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RestaurantController">
    <children>
       <Label layoutX="127.0" layoutY="183.0" text="Chowking" />
       <Label layoutX="179.0" layoutY="369.0" text="McDonald's" />
@@ -39,10 +38,10 @@
             <Image url="@../images/PizzaHut.png" />
          </image>
       </ImageView>
-      <Button fx:id="chowkingBtn" layoutX="120.0" layoutY="215.0" mnemonicParsing="false" text="Chowking" />
-      <Button fx:id="jollibeeBtn" layoutX="272.0" layoutY="215.0" mnemonicParsing="false" text="Jollibee" />
-      <Button fx:id="kfcBtn" layoutX="432.0" layoutY="215.0" mnemonicParsing="false" text="KFC" />
-      <Button fx:id="mcdonaldsBtn" layoutX="171.0" layoutY="397.0" mnemonicParsing="false" text="McDonald's" />
-      <Button fx:id="pizzahutBtn" layoutX="359.0" layoutY="397.0" mnemonicParsing="false" text="PizzaHut" />
+      <Button fx:id="chowkingBtn" layoutX="120.0" layoutY="215.0" mnemonicParsing="false" onAction="#showInfo" text="Chowking" />
+      <Button fx:id="jollibeeBtn" layoutX="272.0" layoutY="215.0" mnemonicParsing="false" onAction="#showInfo" text="Jollibee" />
+      <Button fx:id="kfcBtn" layoutX="432.0" layoutY="215.0" mnemonicParsing="false" onAction="#showInfo" text="KFC" />
+      <Button fx:id="mcdonaldsBtn" layoutX="171.0" layoutY="397.0" mnemonicParsing="false" onAction="#showInfo" text="McDonald's" />
+      <Button fx:id="pizzahutBtn" layoutX="359.0" layoutY="397.0" mnemonicParsing="false" onAction="#showInfo" text="PizzaHut" />
    </children>
 </AnchorPane>
